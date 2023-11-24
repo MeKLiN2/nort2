@@ -1,3 +1,37 @@
+zxc@qwe:~/nort2$ python2 nortbot.py
+INFO:__main__:Starting Nortbot v 1.1.0.7
+Login? [type yes or press enter=no] raise
+DEBUG:util.worker:threaded task, target=<bound method NortBot.connect of <bot.NortBot instance at 0x7efcdd5b2f50>>, args=()
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tinychat.com:443
+DEBUG:urllib3.connectionpool:https://tinychat.com:443 "GET /api/v1.0/room/token/cancers HTTP/1.1" 500 None
+[13:23:37:540] Error during request: HTTP error. Status code: None
+[13:23:37:540] Exception details: HTTP error. Status code: None
+INFO:tinychat:missing connect args None
+
+----------------------------------------
+
+2023-11-23 20:30:18,252 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 20:30:19,615 : INFO : tinychat.py : 274 : connect() : tinychat : missing connect args None
+2023-11-23 20:30:22,463 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 20:30:23,584 : INFO : tinychat.py : 274 : connect() : tinychat : missing connect args None
+2023-11-23 20:32:00,176 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 20:39:45,763 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 20:40:39,557 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 20:47:36,883 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 20:48:12,969 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 20:49:27,257 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 21:00:21,968 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 21:01:04,498 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 21:02:29,115 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 21:06:50,280 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 21:08:49,284 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 21:16:18,157 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 21:19:37,426 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 21:36:42,860 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+2023-11-23 21:41:18,889 : INFO : nortbot.py : 105 : <module>() : __main__ : Starting Nortbot v 1.1.0.7
+
+----------------------------------------
+
 ## Nortbot
 
 A bot for Tinychat chat rooms.
